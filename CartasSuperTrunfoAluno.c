@@ -9,7 +9,7 @@ int main(){
     char cidade[50];
     int populacao;
     float area;
-    int pontos;
+    int lugares;
     
     printf("Insira o estado: \n");
     scanf("%d", &estado);
@@ -18,16 +18,15 @@ int main(){
     scanf(" %c", &codigo);
 
     printf("Insira a cidade: \n");
-    scanf("%s", &cidade);
+    scanf(" %s", &cidade);
 
     printf("Insira a população: \n");
     scanf(" %d", &populacao);
-
     
     scanf(" %f", &area);
 
     printf("Insira a quantidade de pontos turisticos: \n");
-    scanf("%d", &pontos);
+    scanf("%d", &lugares);
 
     printf("Insira a area: \n");
     scanf("%f", &area);
@@ -36,8 +35,8 @@ int main(){
     printf("Cidade: %s\n", cidade);
     printf("População: %d\n", populacao);
     printf("Área: %f\n", area);
-    printf("Pontos: %d\n", pontos);
+    printf("Pontos: %d\n", lugares);
     
-    
+   
     
     }
