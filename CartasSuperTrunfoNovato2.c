@@ -105,13 +105,24 @@ int main(){
     
     printf("\n");
 
-    if (superpoder > superpoder2 && densidade < densidade2)
-    {
-        printf("Carta 1 venceu!!\n");
-    } else {
-        printf("Carta 2 Venceu\n");
+  
+    if(superpoder > superpoder2){
+         printf("No Super Poder - Carta 1 Venceu!!!\n");
+    }else{
+        printf("No Super Poder - Carta 2 Venceu!!!\n");
+}
+    if(populacao > populacao2){
+        printf("Na População - Carta 1 Venceu!!!\n");
+    }else{
+        printf("Na População - Carta 2 Venceu!!!\n");
+
     }
-    
+
+    if (densidade < densidade2){
+        printf("Na Densidade - Carta 1 Venceu!!!\n");
+    }else{
+        printf("Na Densidade - Carta 2 Venceu!!!\n");
+    }
     
     
     
